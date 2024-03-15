@@ -3,6 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+// Locales
+import localeEsMessages from "./locales/es";
+import localeEnMessages from "./locales/en";
+
+// Comprobación uso de español
+let isSpanish= navigator.language.startsWith('es');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +21,13 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+// Uso de i18n
+// ReactDOM.render(
+//   <IntlProvider locale={isSpanish ? "es-ES": "en-US"} messages= {isSpanish? localeEsMessages: localeEnMessages}>
+//           <JobsList/>
+//   </IntlProvider>, document.getElementById("root")
+// );
+
+
 reportWebVitals();
