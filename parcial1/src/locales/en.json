@@ -1,3 +1,15 @@
 {
-    
+    "id":"ID",
+    "login": "Login",
+    "username": "Username",
+    "password": "Pasword",
+    "enter": "Enter",
+    "cancel": "Cancel",
+    "contactUs": "Contact us",
+    "brand": "Brand",
+    "model": "Model",
+    "line": "Line",
+    "kilometers": "Kilometers",
+    "color": "Color",
+    "reference": "Reference"
 }

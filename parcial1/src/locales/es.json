@@ -1,3 +1,15 @@
 {
-    
+    "id": "ID",
+    "login": "Inicio de sesión",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "enter": "Ingresar",
+    "cancel": "Cancelar",
+    "contactUs": "Contáctenos",
+    "brand": "Marca",
+    "model": "Modelo",
+    "line": "Linea",
+    "kilometers": "Kilometraje",
+    "color": "Color",
+    "reference": "Referencia"
 }
